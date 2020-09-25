@@ -1,0 +1,12 @@
+.to-projects-button {
+	position: absolute;
+	top: 11%;
+	right: 15px;
+	cursor: pointer;
+}
+
+.to-projects-button:hover {
+	filter: invert();
+	filter: brightness(1.2);
+	transition: filter 0.3s ease-in;
+}

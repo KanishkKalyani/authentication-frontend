@@ -1,0 +1,85 @@
+.layout-header-container {
+	height: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	justify-content: space-between;
+	background-color: #003973;
+}
+
+.layout-list {
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.kanban-logo-img {
+	width: 55px;
+	height: 55px;
+	margin-right: 3%;
+	margin-left: 10px;
+	font-size: 10px;
+}
+
+.children-container {
+	height: 90%;
+}
+
+.app-info {
+	height: 100%;
+	display: flex;
+	padding-top: 7px;
+	width: 380px;
+	color: aliceblue;
+	font-size: 40px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.app-name {
+	margin-top: 5px;
+}
+
+.user-name {
+	color: aliceblue;
+	font-size: 20px;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.layout-item {
+	font-size: 20px;
+	margin: 5px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.profile-picture-li {
+	height: 100%;
+	padding-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-picture {
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+}
+.profile-picture-li:hover {
+	filter: brightness(1.2);
+	transition: text-shadow 0.3s ease-in;
+}
+
+li:hover {
+	text-shadow: 1px 1px 2px aliceblue;
+	filter: brightness(2);
+	transition: text-shadow 0.3s ease-in;
+}
